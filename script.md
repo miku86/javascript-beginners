@@ -38,7 +38,7 @@
 - JEDE Zeile Code verstehen (expectation, reality)
 - Breakpoints, F9 to go step by step
 
-## Version 2
+## Version 2 (Functions)
 
 - Version 2: WARUM?
 - Requirements schreiben (Warum?, genaue Syntax): // it should...
@@ -53,7 +53,7 @@
 - UPDATE: updateTodo()
 - DELETE: deleteTodo()
 
-## Version 3
+## Version 3 (Object)
 
 - Version 3: WARUM?
 - Requirements schreiben (Warum?, genaue Syntax): // it should...
