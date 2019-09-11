@@ -19,7 +19,8 @@
 
 ## Version 1
 
-- Version 1: WARUM?
+- Wie von Hand Todo-Liste schreiben? => Array
+- neue Version: WARUM?
 - Requirements schreiben (Warum?, genaue Syntax): // it should...
   // it should have a place to store todos
   // it should have a way to Read todos
@@ -40,7 +41,7 @@
 
 ## Version 2 (Functions)
 
-- Version 2: WARUM?
+- neue Version: WARUM? => Abstraktion
 - Requirements schreiben (Warum?, genaue Syntax): // it should...
   // it should have a place to store todos
   // it should have a function to Read todos
@@ -55,7 +56,7 @@
 
 ## Version 3 (Object)
 
-- Version 3: WARUM?
+- Version 3: WARUM? => Ordnung
 - Requirements schreiben (Warum?, genaue Syntax): // it should...
   // it should have a place to store todos
   // it should have an object method to Read todos
