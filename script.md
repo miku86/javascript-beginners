@@ -37,3 +37,18 @@
 - Wie man ihn aufruft und was er macht
 - JEDE Zeile Code verstehen (expectation, reality)
 - Breakpoints, F9 to go step by step
+
+## Version 2
+
+- Version 2: WARUM?
+- Requirements schreiben (Warum?, genaue Syntax): // it should...
+  // it should have a place to store todos
+  // it should have a function to Read todos
+  // it should have a function to Create a todo
+  // it should have a function to Update a todo
+  // it should have a function to Delete a todo
+
+- READ: readTodos()
+- CREATE: createTodo()
+- UPDATE: updateTodo()
+- DELETE: deleteTodo()
