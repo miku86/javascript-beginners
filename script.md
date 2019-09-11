@@ -68,3 +68,12 @@
 - CREATE: object method createTodo()
 - UPDATE: object method updateTodo()
 - DELETE: object method deleteTodo()
+
+## Version 4 (Complete/Incomplete)
+
+- neue Version: WARUM? => neue Funktion
+- Wie von Hand Status hinzufügen? => Object
+- Requirements schreiben (Warum?, genaue Syntax): // it should...
+  // it should have an object method to Create a todo as an object
+  // it should have an object method to Update a todo text
+  // it should have an object method to Update a todo completed status
