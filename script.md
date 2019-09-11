@@ -16,3 +16,18 @@
   // it should have a way to Create a todo
   // it should have a way to Update a todo
   // it should have a way to Delete a todo
+
+## Version 1
+
+- Version 1: WARUM?
+- Requirements schreiben (Warum?, genaue Syntax): // it should...
+  // it should have a place to store todos
+  // it should have a way to Read todos
+  // it should have a way to Create a todo
+  // it should have a way to Update a todo
+  // it should have a way to Delete a todo
+
+- READ: console.log()
+- CREATE: todos.push()
+- UPDATE: todos[i]
+- DELETE: todos.splice()
