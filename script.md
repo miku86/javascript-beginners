@@ -31,3 +31,9 @@
 - CREATE: todos.push()
 - UPDATE: todos[i]
 - DELETE: todos.splice()
+
+## Debugger
+
+- Wie man ihn aufruft und was er macht
+- JEDE Zeile Code verstehen (expectation, reality)
+- Breakpoints, F9 to go step by step
