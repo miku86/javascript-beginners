@@ -48,10 +48,10 @@
   // it should have a function to Update a todo
   // it should have a function to Delete a todo
 
-- READ: readTodos()
-- CREATE: createTodo()
-- UPDATE: updateTodo()
-- DELETE: deleteTodo()
+- READ: function readTodos()
+- CREATE: function createTodo()
+- UPDATE: function updateTodo()
+- DELETE: function deleteTodo()
 
 ## Version 3 (Object)
 
@@ -63,7 +63,7 @@
   // it should have a method to Update a todo
   // it should have a method to Delete a todo
 
-- READ:
-- CREATE:
-- UPDATE:
-- DELETE:
+- READ: object method readTodos()
+- CREATE: object method createTodo()
+- UPDATE: object method updateTodo()
+- DELETE: object method deleteTodo()
