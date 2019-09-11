@@ -52,3 +52,18 @@
 - CREATE: createTodo()
 - UPDATE: updateTodo()
 - DELETE: deleteTodo()
+
+## Version 3
+
+- Version 3: WARUM?
+- Requirements schreiben (Warum?, genaue Syntax): // it should...
+  // it should have a place to store todos
+  // it should have a method to Read todos
+  // it should have a method to Create a todo
+  // it should have a method to Update a todo
+  // it should have a method to Delete a todo
+
+- READ:
+- CREATE:
+- UPDATE:
+- DELETE:
