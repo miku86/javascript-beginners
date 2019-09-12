@@ -79,3 +79,13 @@
 - Requirements schreiben (Warum?, genaue Syntax): // it should...
   // it should have an object method to Create a todo as an object
   // it should have an object method to Update a todo text
+
+## Version 5 (for-loop, if/else)
+
+- Real Life: 10mal "Hallo" sagen
+- neue Version: WARUM? => neue Funktion, for-loop, if/else
+- Initialization, Condition, Final Expression
+- Requirements schreiben (Warum?, genaue Syntax): // it should...
+  // readTodos should show if todos are empty
+  // readTodos should show the todo text
+  // readTodos should show the todo status
