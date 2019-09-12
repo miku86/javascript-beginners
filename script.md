@@ -19,8 +19,8 @@
 
 ## Version 1
 
-- Wie von Hand Todo-Liste schreiben? => Array
-- neue Version: WARUM?
+- Real Life: Einkaufszettel schreiben
+- neue Version: WARUM? => Array
 - Requirements schreiben (Warum?, genaue Syntax): // it should...
   // it should have a place to store todos
   // it should have a way to Read todos
@@ -41,6 +41,7 @@
 
 ## Version 2 (Functions)
 
+- Real Life: Name auf Papier schreiben
 - neue Version: WARUM? => Abstraktion
 - Requirements schreiben (Warum?, genaue Syntax): // it should...
   // it should have a place to store todos
@@ -56,6 +57,7 @@
 
 ## Version 3 (Object)
 
+- Real Life: Schuhschrank vorstellen
 - Version 3: WARUM? => Ordnung
 - Requirements schreiben (Warum?, genaue Syntax): // it should...
   // it should have a place to store todos
@@ -69,11 +71,11 @@
 - UPDATE: object method updateTodo()
 - DELETE: object method deleteTodo()
 
-## Version 4 (Complete/Incomplete)
+## Version 4 (Boolean, Object)
 
-- neue Version: WARUM? => neue Funktion
+- Real Life: Einkaufszettel (abhakbar) schreiben
+- neue Version: WARUM? => neue Funktionen, Boolean
 - Wie von Hand Status hinzufügen? => Object
 - Requirements schreiben (Warum?, genaue Syntax): // it should...
   // it should have an object method to Create a todo as an object
   // it should have an object method to Update a todo text
-  // it should have an object method to Update a todo completed status
