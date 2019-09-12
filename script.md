@@ -4,7 +4,7 @@
 
 - Was bauen wir?
 - Warum bauen wir das?
-- wichtige Skills: JEDE Zeile Code verstehen, Dokumentation lesen
+- wichtige Skills: JEDE Zeile Code verstehen, immer Pseudo-Code zuerst schreiben, Dokumentation lesen
 - HTML Grundaufbau
 - HTML ausführen
 - JavaScript in HTML
