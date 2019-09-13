@@ -84,8 +84,15 @@
 
 - Real Life: 10mal "Hallo" sagen
 - neue Version: WARUM? => neue Funktion, for-loop, if/else
-- Initialization, Condition, Final Expression
+- for-loop: Initialization, Condition, Final Expression
 - Requirements schreiben (Warum?, genaue Syntax): // it should...
   // readTodos should show if todos are empty
   // readTodos should show the todo text
   // readTodos should show the todo status
+
+## Version 6
+
+- neue Version: WARUM? => for-loop üben
+- Requirements schreiben (Warum?, genaue Syntax): // it should...
+  // it should make every todo false, if every todo is true
+  // it should make every todo true, if not every todo is true
