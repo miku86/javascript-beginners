@@ -96,3 +96,12 @@
 - Requirements schreiben (Warum?, genaue Syntax): // it should...
   // it should make every todo false, if every todo is true
   // it should make every todo true, if not every todo is true
+
+## Version 7
+
+- neue Version: WARUM? => User Interface
+- Requirements schreiben (Warum?, genaue Syntax): // it should...
+  // it should show a "display todos" button
+  // it should show a "toggle all" button
+  // it should run readTodos when clicking "display todos"
+  // it should run toggleAll when clicking "toggle all"
