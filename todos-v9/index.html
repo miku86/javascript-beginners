@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todos - V9</title>
+  </head>
+  <body>
+    <div>
+      <!-- it should show a "toggle all" button -->
+      <!-- it should run toggleAll when clicking "toggle all" -->
+      <button onclick="handlers.toggleAll()">Toggle All</button>
+    </div>
+
+    <div>
+      <!-- it should have working controls for createTodo -->
+      <input type="text" class="create-todo-input" placeholder="text" />
+      <button onclick="handlers.createTodo()">Add Todo</button>
+    </div>
+
+    <div>
+      <!-- it should have working controls for updateTodoText -->
+      <input
+        type="number"
+        class="update-todo-text-position"
+        placeholder="position"
+      />
+      <input
+        type="text"
+        class="update-todo-text-new-text"
+        placeholder="new text"
+      />
+      <button onclick="handlers.updateTodoText()">Update Todo Text</button>
+    </div>
+
+    <div>
+      <!-- it should have working controls for toggleTodoStatus -->
+      <input
+        type="number"
+        class="toggle-todo-status-position"
+        placeholder="position"
+      />
+      <button onclick="handlers.toggleTodoStatus()">Toggle Todo Status</button>
+    </div>
+
+    <div>
+      <input
+        type="number"
+        class="delete-todo-position"
+        placeholder="position"
+      />
+      <button onclick="handlers.deleteTodo()">Delete Todo</button>
+    </div>
+
+    <div class="todos">
+      <ol class="todos__list"></ol>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
