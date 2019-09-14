@@ -105,3 +105,12 @@
   // it should show a "toggle all" button
   // it should run readTodos when clicking "display todos"
   // it should run toggleAll when clicking "toggle all"
+
+## Version 8
+
+- neue Version: WARUM? => Code einfacher zu erweitern, neue Funktionen
+- Requirements schreiben (Warum?, genaue Syntax): // it should...
+  // it should have working controls for createTodo
+  // it should have working controls for updateTodoText
+  // it should have working controls for deleteTodo
+  // it should have working controls for toggleTodoStatus
