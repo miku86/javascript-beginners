@@ -114,3 +114,10 @@
   // it should have working controls for updateTodoText
   // it should have working controls for deleteTodo
   // it should have working controls for toggleTodoStatus
+
+## Version 9
+
+- neue Version: WARUM? => Grafische Oberfläche, Organisation
+- Requirements schreiben (Warum?, genaue Syntax): // it should...
+  // it should have a list item for every todo
+  // it should show the todo text and status in every list item
