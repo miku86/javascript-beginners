@@ -129,3 +129,9 @@
   // it should have a delete button for every todo
   // it should have a id for every todo
   // it should delete a specific todo when clicking on it
+
+## Version 11
+
+- neue Version: WARUM? => bessere Lesbarkeit (Readability)
+- Requirements schreiben (Warum?, genaue Syntax): // it should...
+  // it should use `forEach()` instead of a for-loop everywhere
