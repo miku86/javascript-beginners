@@ -121,3 +121,11 @@
 - Requirements schreiben (Warum?, genaue Syntax): // it should...
   // it should have a list item for every todo
   // it should show the todo text and status in every list item
+
+## Version 10
+
+- neue Version: WARUM? => Grafische Oberfläche
+- Requirements schreiben (Warum?, genaue Syntax): // it should...
+  // it should have a delete button for every todo
+  // it should have a id for every todo
+  // it should delete a specific todo when clicking on it
