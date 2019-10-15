@@ -1,4 +1,4 @@
-const todoList = {
+const model = {
   // it should have a place to store todos
   todos: [],
 
@@ -47,11 +47,11 @@ const todoList = {
   }
 };
 
-const handlers = {
+const controller = {
   createTodo() {
     const inputField = document.querySelector('.create-todo-input');
     const newValue = inputField.value;
-    todoList.createTodo(newValue);
+    model.createTodo(newValue);
     inputField.value = '';
     view.readTodos();
   },
@@ -61,14 +61,14 @@ const handlers = {
     const position = positionField.value - 1;
     const newTextField = document.querySelector('.update-todo-text-new-text');
     const newText = newTextField.value;
-    todoList.updateTodoText(position, newText);
+    model.updateTodoText(position, newText);
     positionField.value = '';
     newTextField.value = '';
     view.readTodos();
   },
 
   deleteTodo(position) {
-    todoList.deleteTodo(position);
+    model.deleteTodo(position);
     view.readTodos();
   },
 
@@ -77,13 +77,13 @@ const handlers = {
       '.toggle-todo-status-position'
     );
     const position = positionField.value - 1;
-    todoList.toggleTodoStatus(position);
+    model.toggleTodoStatus(position);
     positionField.value = '';
     view.readTodos();
   },
 
   toggleAll() {
-    todoList.toggleAll();
+    model.toggleAll();
     view.readTodos();
   }
 };
@@ -102,7 +102,7 @@ const view = {
     const list = document.querySelector('.todos__list');
     list.innerHTML = '';
 
-    todoList.todos.forEach((todo, index) => {
+    model.todos.forEach((todo, index) => {
       const listItem = this.generateListItem(todo, index);
       listItem.appendChild(this.createDeleteButton());
       list.appendChild(listItem);
@@ -133,7 +133,7 @@ const view = {
   setListeners() {
     const todoLI = document.querySelector('.todos__list');
     todoLI.addEventListener('click', (event) => {
-      handlers.deleteTodo(parseInt(event.target.parentNode.id));
+      controller.deleteTodo(parseInt(event.target.parentNode.id));
     });
   }
 };

@@ -2,49 +2,88 @@
 <html>
   <head>
     <title>Todos - V11</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      main {
+        width: 200px;
+        text-align: center;
+      }
+
+      li {
+        list-style-type: none;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        margin: 60px 0;
+      }
+
+      .container > * {
+        width: 100%;
+      }
+
+      .todos__list {
+        padding: 0;
+      }
+    </style>
   </head>
   <body>
-    <div>
-      <!-- it should show a "toggle all" button -->
-      <!-- it should run toggleAll when clicking "toggle all" -->
-      <button onclick="handlers.toggleAll()">Toggle All</button>
-    </div>
+    <main>
+      <h1>Todo List</h1>
+      <div class="container">
+        <!-- it should show a "toggle all" button -->
+        <!-- it should run toggleAll when clicking "toggle all" -->
+        <button onclick="controller.toggleAll()">Toggle All</button>
+      </div>
 
-    <div>
-      <!-- it should have working controls for createTodo -->
-      <input type="text" class="create-todo-input" placeholder="text" />
-      <button onclick="handlers.createTodo()">Add Todo</button>
-    </div>
+      <div class="container">
+        <!-- it should have working controls for createTodo -->
+        <input type="text" class="create-todo-input" placeholder="text" />
+        <button onclick="controller.createTodo()">Add Todo</button>
+      </div>
 
-    <div>
-      <!-- it should have working controls for updateTodoText -->
-      <input
-        type="number"
-        class="update-todo-text-position"
-        placeholder="position"
-      />
-      <input
-        type="text"
-        class="update-todo-text-new-text"
-        placeholder="new text"
-      />
-      <button onclick="handlers.updateTodoText()">Update Todo Text</button>
-    </div>
+      <div class="container">
+        <!-- it should have working controls for updateTodoText -->
+        <input
+          type="number"
+          class="update-todo-text-position"
+          placeholder="position"
+        />
+        <input
+          type="text"
+          class="update-todo-text-new-text"
+          placeholder="new text"
+        />
+        <button onclick="controller.updateTodoText()">Update Todo Text</button>
+      </div>
 
-    <div>
-      <!-- it should have working controls for toggleTodoStatus -->
-      <input
-        type="number"
-        class="toggle-todo-status-position"
-        placeholder="position"
-      />
-      <button onclick="handlers.toggleTodoStatus()">Toggle Todo Status</button>
-    </div>
+      <div class="container">
+        <!-- it should have working controls for toggleTodoStatus -->
+        <input
+          type="number"
+          class="toggle-todo-status-position"
+          placeholder="position"
+        />
+        <button onclick="controller.toggleTodoStatus()">
+          Toggle Todo Status
+        </button>
+      </div>
 
-    <div class="todos">
-      <ol class="todos__list"></ol>
-    </div>
+      <div class="container">
+        <ul class="todos__list"></ul>
+      </div>
 
-    <script src="script.js"></script>
+      <script src="script.js"></script>
+    </main>
   </body>
 </html>
