@@ -87,6 +87,8 @@ To learn some problem solving techniques & some technical fundamentals
 
 ## Version 1
 
+Why?
+
 - Real Life: Einkaufszettel schreiben
 - neue Version: WARUM? => Array
 
@@ -109,6 +111,8 @@ What we've learned:
 
 ## Debugger
 
+Why?
+
 - Wie man ihn aufruft und was er macht
 - JEDE Zeile Code verstehen (expectation, reality)
 - Breakpoints, F9 to go step by step
@@ -116,6 +120,8 @@ What we've learned:
 ---
 
 ## Version 2 (Functions)
+
+Why?
 
 - Real Life: Name auf Papier schreiben
 - neue Version: WARUM? => Abstraktion
@@ -141,6 +147,8 @@ What we've learned:
 
 ## Version 3 (Object)
 
+Why?
+
 - Real Life: Schuhschrank vorstellen
 - Version 3: WARUM? => Ordnung
 
@@ -165,6 +173,8 @@ What we've learned:
 
 ## Version 4 (Boolean, Object)
 
+Why?
+
 - Real Life: Einkaufszettel (abhakbar) schreiben
 - neue Version: WARUM? => neue Funktionen, Boolean
 - Wie von Hand Status hinzufügen? => Object
@@ -181,6 +191,8 @@ What we've learned:
 ---
 
 ## Version 5 (for-loop, if/else)
+
+Why?
 
 - Real Life: 10mal "Hallo" sagen
 - neue Version: WARUM? => neue Funktion, for-loop, if/else
@@ -200,6 +212,8 @@ What we've learned:
 
 ## Version 6
 
+Why?
+
 - neue Version: WARUM? => for-loop üben
 
 Requirements:
@@ -214,6 +228,8 @@ What we've learned:
 ---
 
 ## Version 7
+
+Why?
 
 - neue Version: WARUM? => User Interface
 
@@ -232,6 +248,8 @@ What we've learned:
 
 ## Version 8
 
+Why?
+
 - neue Version: WARUM? => Code einfacher zu erweitern, neue Funktionen
 
 Requirements:
@@ -249,6 +267,8 @@ What we've learned:
 
 ## Version 9
 
+Why?
+
 - neue Version: WARUM? => Grafische Oberfläche, Organisation (MVC)
 
 Requirements:
@@ -263,6 +283,8 @@ What we've learned:
 ---
 
 ## Version 10
+
+Why?
 
 - neue Version: WARUM? => Grafische Oberfläche
 
@@ -279,6 +301,8 @@ What we've learned:
 ---
 
 ## Version 11
+
+Why?
 
 - neue Version: WARUM? => bessere Lesbarkeit (Readability)
 
