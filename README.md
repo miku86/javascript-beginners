@@ -100,6 +100,8 @@ Requirements:
 // it should have a way to Delete a todo
 ```
 
+What we've learned:
+
 - READ: console.log()
 - CREATE: todos.push()
 - UPDATE: todos[i]
@@ -128,6 +130,8 @@ Requirements:
 // it should have a function to Delete a todo
 ```
 
+What we've learned:
+
 - READ: function readTodos()
 - CREATE: function createTodo()
 - UPDATE: function updateTodo()
@@ -150,6 +154,8 @@ Requirements:
 // it should have an object method to Delete a todo
 ```
 
+What we've learned:
+
 - READ: object method readTodos()
 - CREATE: object method createTodo()
 - UPDATE: object method updateTodo()
@@ -170,6 +176,8 @@ Requirements:
 // it should have an object method to Update a todo text
 ```
 
+What we've learned:
+
 ---
 
 ## Version 5 (for-loop, if/else)
@@ -186,6 +194,8 @@ Requirements:
 // readTodos should show the todo status
 ```
 
+What we've learned:
+
 ---
 
 ## Version 6
@@ -198,6 +208,8 @@ Requirements:
 // it should make every todo false, if every todo is true
 // it should make every todo true, if not every todo is true
 ```
+
+What we've learned:
 
 ---
 
@@ -214,6 +226,8 @@ Requirements:
 // it should run toggleAll when clicking "toggle all"
 ```
 
+What we've learned:
+
 ---
 
 ## Version 8
@@ -229,6 +243,8 @@ Requirements:
 // it should have working controls for toggleTodoStatus
 ```
 
+What we've learned:
+
 ---
 
 ## Version 9
@@ -241,6 +257,8 @@ Requirements:
 // it should have a list item for every todo
 // it should show the todo text and status in every list item
 ```
+
+What we've learned:
 
 ---
 
@@ -256,6 +274,8 @@ Requirements:
 // it should delete a specific todo when clicking on it
 ```
 
+What we've learned:
+
 ---
 
 ## Version 11
@@ -267,3 +287,5 @@ Requirements:
 ```
 // it should use `forEach()` instead of a for-loop everywhere
 ```
+
+What we've learned:
