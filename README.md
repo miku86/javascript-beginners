@@ -1,5 +1,47 @@
 # JavaScript for Beginners
 
+## Basic Instructions
+
+### Get the materials
+
+#### If you are NOT familiar with Git
+
+- Download it: `https://github.com/miku86-workshops/javascript-beginners/archive/master.zip`
+- Extract it on your machine
+- Go into the folder
+
+#### If you are familiar with Git
+
+- Clone repo: `git clone git@github.com:miku86-workshops/javascript-beginners.git`
+- Go into the folder
+
+### Folder Structure
+
+```
+- README.md (the file you are currently reading)
+- todos-v1
+  - index.html
+  - script.js
+- todos-v2
+  - index.html
+  - script.js
+.
+.
+.
+- todos-v11
+  - index.html
+  - script.js
+```
+
+Every folder named `todos-v[number]` has two files:
+
+- `index.html`: this is where your HTML lives
+- `script.js`: this is where your JavaScript lives
+- `script.js` and `index.html` are connected by a `<script>`-tag in `index.html`
+- some basic styling is in the `head` of `index.html`, only in `todos-v11`, to keep the complexity of the file structure low (less files, less complexity)
+
+---
+
 ## Generelle Themen
 
 - Was bauen wir?
