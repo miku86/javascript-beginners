@@ -89,8 +89,7 @@ To learn some problem solving techniques & some technical fundamentals
 
 Why?
 
-- Real Life: Einkaufszettel schreiben
-- neue Version: WARUM? => Array
+- we need some basic functionality
 
 Requirements:
 
@@ -104,18 +103,20 @@ Requirements:
 
 What we've learned:
 
-- READ: console.log()
-- CREATE: todos.push()
-- UPDATE: todos[i]
-- DELETE: todos.splice()
+- what an array is (a collection of data)
+- how to display data in the console: `console.log()`
+- how to create elements: `todos.push(...)`
+- how to update elements: `todos[i] = ...`
+- how to delete elements: `todos.splice(...)`
 
 ## Debugger
 
 Why?
 
-- Wie man ihn aufruft und was er macht
-- JEDE Zeile Code verstehen (expectation, reality)
-- Breakpoints, F9 to go step by step
+- if your code doesn't do what you want it to do
+- go through your code step-by-step
+- go to your browser, hit `F12` and go to `Debugger`
+- add breakpoints, F9 to go step by step
 
 ---
 
@@ -123,8 +124,10 @@ Why?
 
 Why?
 
-- Real Life: Name auf Papier schreiben
-- neue Version: WARUM? => Abstraktion
+- our code isn't that organized, we see implementation details
+- real-life: we want to use a tool (e.g. a TV), but we don't want to care about the internal parts and how they work (electrity, wires, circuits)
+  => Abstraction
+  => increased readability
 
 Requirements:
 
@@ -138,10 +141,10 @@ Requirements:
 
 What we've learned:
 
-- READ: function readTodos()
-- CREATE: function createTodo()
-- UPDATE: function updateTodo()
-- DELETE: function deleteTodo()
+- what a function is
+- how we use a function
+- why we use a function
+- what abstraction means
 
 ---
 
@@ -149,8 +152,10 @@ What we've learned:
 
 Why?
 
-- Real Life: Schuhschrank vorstellen
-- Version 3: WARUM? => Ordnung
+- increased readability
+- even more organized structure
+- hiding implementation details even more
+  => encapsulation
 
 Requirements:
 
@@ -164,10 +169,10 @@ Requirements:
 
 What we've learned:
 
-- READ: object method readTodos()
-- CREATE: object method createTodo()
-- UPDATE: object method updateTodo()
-- DELETE: object method deleteTodo()
+- what an object is
+- how we use an object
+- why we use an object
+- what encapsulation means
 
 ---
 
@@ -175,9 +180,7 @@ What we've learned:
 
 Why?
 
-- Real Life: Einkaufszettel (abhakbar) schreiben
-- neue Version: WARUM? => neue Funktionen, Boolean
-- Wie von Hand Status hinzufügen? => Object
+- a single todo should be togglable (it is done or not done)
 
 Requirements:
 
@@ -188,15 +191,18 @@ Requirements:
 
 What we've learned:
 
+- what a boolean is
+- why we use a boolean
+- how to change our code so that we pass an object instead of a string to our todo list
+
 ---
 
 ## Version 5 (for-loop, if/else)
 
 Why?
 
-- Real Life: 10mal "Hallo" sagen
-- neue Version: WARUM? => neue Funktion, for-loop, if/else
-- for-loop: Initialization, Condition, Final Expression
+- we want to do sth repeatedly (loop)
+- we want to do sth conditionally (if/else)
 
 Requirements:
 
@@ -208,13 +214,19 @@ Requirements:
 
 What we've learned:
 
+- what a loop is
+- how we use a loop
+- what an if/else is
+- how we use an if/else
+
 ---
 
 ## Version 6
 
 Why?
 
-- neue Version: WARUM? => for-loop üben
+- all todos should be togglable in one go
+- practice of loop
 
 Requirements:
 
@@ -225,13 +237,16 @@ Requirements:
 
 What we've learned:
 
+- how we use a loop
+
 ---
 
 ## Version 7
 
 Why?
 
-- neue Version: WARUM? => User Interface
+- we want to see some real display values (instead of the console)
+  => User Interface
 
 Requirements:
 
@@ -244,13 +259,16 @@ Requirements:
 
 What we've learned:
 
+- what an Event Listener is
+- how we can connect a HTML element to a JavaScript function
+
 ---
 
 ## Version 8
 
 Why?
 
-- neue Version: WARUM? => Code einfacher zu erweitern, neue Funktionen
+- we add the remaining User Interface elements
 
 Requirements:
 
@@ -263,13 +281,17 @@ Requirements:
 
 What we've learned:
 
+- how to add some basic HTML elements that can run JavaScript code
+
 ---
 
 ## Version 9
 
 Why?
 
-- neue Version: WARUM? => Grafische Oberfläche, Organisation (MVC)
+- increase readability
+- even more organized structure, again
+- separation of tiers => MVC
 
 Requirements:
 
@@ -280,13 +302,17 @@ Requirements:
 
 What we've learned:
 
+- what MVC is
+- how MVC works
+- why we use MVC
+
 ---
 
 ## Version 10
 
 Why?
 
-- neue Version: WARUM? => Grafische Oberfläche
+- additional functionality in the User Interface
 
 Requirements:
 
@@ -298,13 +324,15 @@ Requirements:
 
 What we've learned:
 
+- how we give every todo its own delete button
+
 ---
 
-## Version 11
+## Version 11 (Functional Programming, forEach)
 
 Why?
 
-- neue Version: WARUM? => bessere Lesbarkeit (Readability)
+- increase readability (for each loop)
 
 Requirements:
 
@@ -313,3 +341,7 @@ Requirements:
 ```
 
 What we've learned:
+
+- the difference between imperative and functional programming
+- what the `forEach` function is
+- how we use the `forEach` function
