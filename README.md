@@ -106,6 +106,8 @@ To learn some problem solving techniques & some technical fundamentals
 - JEDE Zeile Code verstehen (expectation, reality)
 - Breakpoints, F9 to go step by step
 
+---
+
 ## Version 2 (Functions)
 
 - Real Life: Name auf Papier schreiben
@@ -121,6 +123,8 @@ To learn some problem solving techniques & some technical fundamentals
 - CREATE: function createTodo()
 - UPDATE: function updateTodo()
 - DELETE: function deleteTodo()
+
+---
 
 ## Version 3 (Object)
 
@@ -138,6 +142,8 @@ To learn some problem solving techniques & some technical fundamentals
 - UPDATE: object method updateTodo()
 - DELETE: object method deleteTodo()
 
+---
+
 ## Version 4 (Boolean, Object)
 
 - Real Life: Einkaufszettel (abhakbar) schreiben
@@ -146,6 +152,8 @@ To learn some problem solving techniques & some technical fundamentals
 - Requirements schreiben (Warum?, genaue Syntax): // it should...
   // it should have an object method to Create a todo as an object
   // it should have an object method to Update a todo text
+
+---
 
 ## Version 5 (for-loop, if/else)
 
@@ -157,12 +165,16 @@ To learn some problem solving techniques & some technical fundamentals
   // readTodos should show the todo text
   // readTodos should show the todo status
 
+---
+
 ## Version 6
 
 - neue Version: WARUM? => for-loop üben
 - Requirements schreiben (Warum?, genaue Syntax): // it should...
   // it should make every todo false, if every todo is true
   // it should make every todo true, if not every todo is true
+
+---
 
 ## Version 7
 
@@ -173,6 +185,8 @@ To learn some problem solving techniques & some technical fundamentals
   // it should run readTodos when clicking "display todos"
   // it should run toggleAll when clicking "toggle all"
 
+---
+
 ## Version 8
 
 - neue Version: WARUM? => Code einfacher zu erweitern, neue Funktionen
@@ -182,12 +196,16 @@ To learn some problem solving techniques & some technical fundamentals
   // it should have working controls for deleteTodo
   // it should have working controls for toggleTodoStatus
 
+---
+
 ## Version 9
 
 - neue Version: WARUM? => Grafische Oberfläche, Organisation (MVC)
 - Requirements schreiben (Warum?, genaue Syntax): // it should...
   // it should have a list item for every todo
   // it should show the todo text and status in every list item
+
+---
 
 ## Version 10
 
@@ -196,6 +214,8 @@ To learn some problem solving techniques & some technical fundamentals
   // it should have a delete button for every todo
   // it should have a id for every todo
   // it should delete a specific todo when clicking on it
+
+---
 
 ## Version 11
 
