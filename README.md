@@ -42,22 +42,47 @@ Every folder named `todos-v[number]` has two files:
 
 ---
 
-## Generelle Themen
+## General Information
 
-- Was bauen wir?
-- Warum bauen wir das?
-- wichtige Skills: JEDE Zeile Code verstehen, immer Pseudo-Code zuerst schreiben, Dokumentation lesen
-- HTML Grundaufbau
-- HTML ausführen
-- JavaScript in HTML
-- Warum funktioniert JavaScript in HTML?
-- Tools, die wir nutzen: Editor, Chrome, Debugger
-- Requirements schreiben (Warum?, genaue Syntax): // it should...
-  // it should have a place to store todos
-  // it should have a way to Read todos
-  // it should have a way to Create a todo
-  // it should have a way to Update a todo
-  // it should have a way to Delete a todo
+### What will be build?
+
+A simple todo list
+
+### Why will we build it?
+
+To learn some problem solving techniques & some technical fundamentals
+
+### Basic Ideas
+
+- try to understand every line of code. If you don't understand a specific line: delete the line & see what breaks
+- to tackle a problem, think about how you would do it, STEP-BY-STEP, in real-life:
+  => How do you write down your todo items in real-life?
+- use pseudo code: 1. write down the solution in your native tongue, 2. translate it into real code
+
+```js
+// 1. native tongue: if the todo list is empty
+// 2. real code: if (todoList.length <= 0) {...}
+```
+
+- use the documentation of the language, e.g. google: `javascript documentation`
+- use an editor to write your code: Visual Studio Code, Atom, Brackets, ...
+- use a browser to see the output: Firefox, Chromium, Chrome, Edge, Safari, ...
+- write down requirements BEFORE you start coding: (so that you know what you actually want to build)
+
+  - `it should [display all todo items]` or
+  - `the user can [see all todo items]`
+
+- I recommend to use CRUD verbs: Create, Read, Update, Delete (you don't forget them)
+
+```
+// it should have a place to store todos
+// it should have a way to Read todos
+// it should have a way to Create a todo
+// it should have a way to Update a todo
+// it should have a way to Delete a todo
+```
+
+---
 
 ## Version 1
 
