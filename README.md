@@ -12,7 +12,8 @@
 
 #### If you are familiar with Git
 
-- Clone repo: `git clone git@github.com:miku86-workshops/javascript-beginners.git`
+- Clone repo (HTTPS): `git clone https://github.com/miku86-workshops/javascript-beginners.git`
+- Clone repo (SSH): `git clone git@github.com:miku86-workshops/javascript-beginners.git`
 - Go into the folder
 
 ### Folder Structure
