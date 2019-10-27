@@ -89,12 +89,16 @@ To learn some problem solving techniques & some technical fundamentals
 
 - Real Life: Einkaufszettel schreiben
 - neue Version: WARUM? => Array
-- Requirements schreiben (Warum?, genaue Syntax): // it should...
-  // it should have a place to store todos
-  // it should have a way to Read todos
-  // it should have a way to Create a todo
-  // it should have a way to Update a todo
-  // it should have a way to Delete a todo
+
+Requirements:
+
+```
+// it should have a place to store todos
+// it should have a way to Read todos
+// it should have a way to Create a todo
+// it should have a way to Update a todo
+// it should have a way to Delete a todo
+```
 
 - READ: console.log()
 - CREATE: todos.push()
@@ -113,12 +117,16 @@ To learn some problem solving techniques & some technical fundamentals
 
 - Real Life: Name auf Papier schreiben
 - neue Version: WARUM? => Abstraktion
-- Requirements schreiben (Warum?, genaue Syntax): // it should...
-  // it should have a place to store todos
-  // it should have a function to Read todos
-  // it should have a function to Create a todo
-  // it should have a function to Update a todo
-  // it should have a function to Delete a todo
+
+Requirements:
+
+```
+// it should have a place to store todos
+// it should have a function to Read todos
+// it should have a function to Create a todo
+// it should have a function to Update a todo
+// it should have a function to Delete a todo
+```
 
 - READ: function readTodos()
 - CREATE: function createTodo()
@@ -131,12 +139,16 @@ To learn some problem solving techniques & some technical fundamentals
 
 - Real Life: Schuhschrank vorstellen
 - Version 3: WARUM? => Ordnung
-- Requirements schreiben (Warum?, genaue Syntax): // it should...
-  // it should have a place to store todos
-  // it should have an object method to Read todos
-  // it should have an object method to Create a todo
-  // it should have an object method to Update a todo
-  // it should have an object method to Delete a todo
+
+Requirements:
+
+```
+// it should have a place to store todos
+// it should have an object method to Read todos
+// it should have an object method to Create a todo
+// it should have an object method to Update a todo
+// it should have an object method to Delete a todo
+```
 
 - READ: object method readTodos()
 - CREATE: object method createTodo()
@@ -150,9 +162,13 @@ To learn some problem solving techniques & some technical fundamentals
 - Real Life: Einkaufszettel (abhakbar) schreiben
 - neue Version: WARUM? => neue Funktionen, Boolean
 - Wie von Hand Status hinzufügen? => Object
-- Requirements schreiben (Warum?, genaue Syntax): // it should...
-  // it should have an object method to Create a todo as an object
-  // it should have an object method to Update a todo text
+
+Requirements:
+
+```
+// it should have an object method to Create a todo as an object
+// it should have an object method to Update a todo text
+```
 
 ---
 
@@ -161,65 +177,93 @@ To learn some problem solving techniques & some technical fundamentals
 - Real Life: 10mal "Hallo" sagen
 - neue Version: WARUM? => neue Funktion, for-loop, if/else
 - for-loop: Initialization, Condition, Final Expression
-- Requirements schreiben (Warum?, genaue Syntax): // it should...
-  // readTodos should show if todos are empty
-  // readTodos should show the todo text
-  // readTodos should show the todo status
+
+Requirements:
+
+```
+// readTodos should show if todos are empty
+// readTodos should show the todo text
+// readTodos should show the todo status
+```
 
 ---
 
 ## Version 6
 
 - neue Version: WARUM? => for-loop üben
-- Requirements schreiben (Warum?, genaue Syntax): // it should...
-  // it should make every todo false, if every todo is true
-  // it should make every todo true, if not every todo is true
+
+Requirements:
+
+```
+// it should make every todo false, if every todo is true
+// it should make every todo true, if not every todo is true
+```
 
 ---
 
 ## Version 7
 
 - neue Version: WARUM? => User Interface
-- Requirements schreiben (Warum?, genaue Syntax): // it should...
-  // it should show a "display todos" button
-  // it should show a "toggle all" button
-  // it should run readTodos when clicking "display todos"
-  // it should run toggleAll when clicking "toggle all"
+
+Requirements:
+
+```
+// it should show a "display todos" button
+// it should show a "toggle all" button
+// it should run readTodos when clicking "display todos"
+// it should run toggleAll when clicking "toggle all"
+```
 
 ---
 
 ## Version 8
 
 - neue Version: WARUM? => Code einfacher zu erweitern, neue Funktionen
-- Requirements schreiben (Warum?, genaue Syntax): // it should...
-  // it should have working controls for createTodo
-  // it should have working controls for updateTodoText
-  // it should have working controls for deleteTodo
-  // it should have working controls for toggleTodoStatus
+
+Requirements:
+
+```
+// it should have working controls for createTodo
+// it should have working controls for updateTodoText
+// it should have working controls for deleteTodo
+// it should have working controls for toggleTodoStatus
+```
 
 ---
 
 ## Version 9
 
 - neue Version: WARUM? => Grafische Oberfläche, Organisation (MVC)
-- Requirements schreiben (Warum?, genaue Syntax): // it should...
-  // it should have a list item for every todo
-  // it should show the todo text and status in every list item
+
+Requirements:
+
+```
+// it should have a list item for every todo
+// it should show the todo text and status in every list item
+```
 
 ---
 
 ## Version 10
 
 - neue Version: WARUM? => Grafische Oberfläche
-- Requirements schreiben (Warum?, genaue Syntax): // it should...
-  // it should have a delete button for every todo
-  // it should have a id for every todo
-  // it should delete a specific todo when clicking on it
+
+Requirements:
+
+```
+// it should have a delete button for every todo
+// it should have a id for every todo
+// it should delete a specific todo when clicking on it
+```
 
 ---
 
 ## Version 11
 
 - neue Version: WARUM? => bessere Lesbarkeit (Readability)
-- Requirements schreiben (Warum?, genaue Syntax): // it should...
-  // it should use `forEach()` instead of a for-loop everywhere
+
+Requirements:
+
+```
+// it should use `forEach()` instead of a for-loop everywhere
+```
