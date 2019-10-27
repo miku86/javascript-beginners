@@ -6,7 +6,7 @@
 
 #### If you are NOT familiar with Git
 
-- Download it: `https://github.com/miku86-workshops/javascript-beginners/archive/master.zip`
+- Download it: https://github.com/miku86-workshops/javascript-beginners/archive/master.zip
 - Extract it on your machine
 - Go into the folder
 
