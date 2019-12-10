@@ -139,3 +139,19 @@ const view = {
 };
 
 view.setListeners();
+
+const setupHandlers = () => {
+  const toggleTodosButton = document.querySelector(".toggle-todos-button");
+  toggleTodosButton.addEventListener("click", controller.toggleAll);
+
+  const createTodoButton = document.querySelector(".add-todo-button");
+  createTodoButton.addEventListener("click", controller.createTodo);
+
+  const updateTodoButton = document.querySelector(".update-todo-button");
+  updateTodoButton.addEventListener("click", controller.updateTodoText);
+
+  const toggleTodoButton = document.querySelector(".toggle-todo-button");
+  toggleTodoButton.addEventListener("click", controller.toggleTodoStatus);
+}
+
+setupHandlers();
