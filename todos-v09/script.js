@@ -85,7 +85,6 @@ const handlers = {
     todoList.toggleTodoStatus(position);
     positionField.value = '';
     view.readTodos();
-    view.readTodos();
   },
 
   toggleAll() {
