@@ -246,7 +246,8 @@ What we've learned:
 Why?
 
 - we want to see some real display values (instead of the console)
-  => User Interface
+
+=> User Interface
 
 Requirements:
 
@@ -274,9 +275,9 @@ Requirements:
 
 ```
 // it should have working controls for createTodo
-// it should have working controls for updateTodoText
 // it should have working controls for deleteTodo
 // it should have working controls for toggleTodoStatus
+// it should have working controls for updateTodoText
 ```
 
 What we've learned:
