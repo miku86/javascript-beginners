@@ -7,13 +7,15 @@
     <div>
       <!-- it should show a "toggle all" button -->
       <!-- it should run toggleAll when clicking "toggle all" -->
-      <button onclick="handlers.toggleAll()">Toggle All</button>
+      <button class="toggle-todos-button">Toggle All</button>
     </div>
 
     <div>
       <!-- it should have working controls for createTodo -->
       <input type="text" class="create-todo-input" placeholder="text" />
-      <button onclick="handlers.createTodo()">Add Todo</button>
+      <button class="add-todo-button">
+        Add Todo
+      </button>
     </div>
 
     <div>
@@ -28,7 +30,7 @@
         class="update-todo-text-new-text"
         placeholder="new text"
       />
-      <button onclick="handlers.updateTodoText()">Update Todo Text</button>
+      <button class="update-todo-button">Update Todo Text</button>
     </div>
 
     <div>
@@ -38,7 +40,7 @@
         class="toggle-todo-status-position"
         placeholder="position"
       />
-      <button onclick="handlers.toggleTodoStatus()">Toggle Todo Status</button>
+      <button class="toggle-todo-button">Toggle Todo Status</button>
     </div>
 
     <div>
@@ -47,7 +49,7 @@
         class="delete-todo-position"
         placeholder="position"
       />
-      <button onclick="handlers.deleteTodo()">Delete Todo</button>
+      <button class="delete-todo-button">Delete Todo</button>
     </div>
 
     <div class="todos">
